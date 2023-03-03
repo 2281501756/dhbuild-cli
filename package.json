@@ -2,9 +2,8 @@
   "name": "dhbuild-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "bin": {
-    "dhbuild": "./bin/cli"
+    "dhbuild": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +14,7 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^9.0.0",
-    "download-git-repo": "^3.0.2",
+    "download-git-repo": "^0.0.2",
     "execa": "^5.0.0",
     "figlet": "^1.5.2",
     "fs-extra": "^10.0.1",
